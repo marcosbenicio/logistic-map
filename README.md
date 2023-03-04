@@ -4,7 +4,7 @@ The Logistic map is a simple, non-linear, iterative map used to model population
 
 The logistic map is defined as:
 
-$x(t+1)=\lambda x(t)\left( 1-x(t)\right)$
+$$x(t+1)=\lambda x(t)\left( 1-x(t)\right)$$
 
 where $x(t)$ represents the population at time t, $\lambda$ is a parameter that controls the rate of growth, and $0 ≤ x(t) ≤ 1$.
 
