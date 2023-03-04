@@ -4,11 +4,11 @@ The Logistic map is a simple, non-linear, iterative map used to model population
 
 The logistic map is defined as:
 
-$$x_n+1 = r * x_n * (1 - x_n)$$
+$$x(t+1)=\lambda x(t) \left( 1-x(t)$$
 
-where x_n represents the population at time n, r is a parameter that controls the rate of growth, and 0 ≤ x_n ≤ 1.
+where x(t) represents the population at time t, $\lambda$ is a parameter that controls the rate of growth, and $0 ≤ x(t) ≤ 1$.
 
-When r is small, the population grows linearly and converges to a stable value. As r increases, the population oscillates between two or more values. At a certain value of r, the map undergoes a bifurcation and produces a period-doubling cascade, leading to the emergence of chaotic behavior.
+When r is small, the population grows linearly and converges to a stable value. As r increases, the population oscillates between two or more values. At a certain value of $\lambda$, the map undergoes a bifurcation and produces a period-doubling cascade, leading to the emergence of chaotic behavior.
 
 - logistic_map.c : This code calculates the values of the logistic map for a given set of parameters and writes them to a file. The logistic map is a simple nonlinear dynamical system that exhibits chaotic behavior for certain parameter values. The program uses a loop to iteratively calculate the values of the map and write them to a file.
 
@@ -19,7 +19,7 @@ When r is small, the population grows linearly and converges to a stable value. 
 <img src="Image/mapa_logistico_atrator_lambda2.png">
 
 
-- logistic_map_bifurcation.c: This code generates data for a bifurcation diagram of the logistic map. The logistic map is a mathematical equation that models the growth of a population over time. At a certain value of r, the map undergoes a bifurcation and produces a period-doubling cascade, leading to the emergence of chaotic behavior.
+- logistic_map_bifurcation.c: This code generates data for a bifurcation diagram of the logistic map. The logistic map is a mathematical equation that models the growth of a population over time. At a certain value of $\lambda$, the map undergoes a bifurcation and produces a period-doubling cascade, leading to the emergence of chaotic behavior.
 
 <img src="Image/mapa_bifurcacao.png">
 
