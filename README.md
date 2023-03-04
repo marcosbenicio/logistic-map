@@ -1,2 +1,2 @@
 # Logistic map
-Leia o arquivo de pdf para mais informações
+read pdf file
