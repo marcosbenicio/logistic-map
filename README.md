@@ -8,7 +8,7 @@ $$x(t+1)=\lambda x(t)\left( 1-x(t)\right)$$
 
 where $x(t)$ represents the population at time t, $\lambda$ is a parameter that controls the rate of growth, and $0 ≤ x(t) ≤ 1$.
 
-When r is small, the population grows linearly and converges to a stable value. As r increases, the population oscillates between two or more values. At a certain value of $\lambda$, the map undergoes a bifurcation and produces a period-doubling cascade, leading to the emergence of chaotic behavior.
+When $\lambda$is small, the population grows linearly and converges to a stable value. As r increases, the population oscillates between two or more values. At a certain value of $\lambda$, the map undergoes a bifurcation and produces a period-doubling cascade, leading to the emergence of chaotic behavior.
 
 - logistic_map.c : This code calculates the values of the logistic map for a given set of parameters and writes them to a file.
 
