@@ -24,3 +24,6 @@ When $\lambda$ is small, the population grows linearly and converges to a stable
 <img src="Image/mapa_bifurcacao.png">
 
 - logistic_map_comp.c : This program calculates and writes the values of the logistic map equation with a fixed lambda value of 3.1 and an initial value of $x_0=0.2$.
+
+The plot was generated using Gnuplot, which is a portable and command-line driven graphing utility.
+[Gnuplot]: http://www.gnuplot.info/#:~:text=Gnuplot%20is%20a%20portable%20command,have%20to%20pay%20for%20it).
