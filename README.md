@@ -10,7 +10,7 @@ where $x(t)$ represents the population at time t, $\lambda$ is a parameter that 
 
 When r is small, the population grows linearly and converges to a stable value. As r increases, the population oscillates between two or more values. At a certain value of $\lambda$, the map undergoes a bifurcation and produces a period-doubling cascade, leading to the emergence of chaotic behavior.
 
-- logistic_map.c : This code calculates the values of the logistic map for a given set of parameters and writes them to a file. The logistic map is a simple nonlinear dynamical system that exhibits chaotic behavior for certain parameter values. The program uses a loop to iteratively calculate the values of the map and write them to a file.
+- logistic_map.c : This code calculates the values of the logistic map for a given set of parameters and writes them to a file.
 
 <img src="Image/mapa_logistico_lambda1,01.png">
 
