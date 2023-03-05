@@ -14,7 +14,7 @@ When r is small, the population grows linearly and converges to a stable value. 
 
 <img src="Image/mapa_logistico_lambda1,01.png">
 
-- logistic_map_attractor.c: The code implements the logistic map and shows how to generate an attractor plot for a given parameter value of lambda and initial condition of x. The program calculates the next state of x using the logistic map equation and writes the current and next states to a file to plot the attractor. The program also writes the next state twice to plot a vertical line on the attractor plot.
+- logistic_map_attractor.c: The code implements the logistic map and shows how to generate an attractor plot for a given parameter value of lambda and initial condition of x. The program calculates the next state of x using the logistic map equation and writes the current and next states to a file to plot the attractor. This shows the convergence for the logistic map equation.
 
 <img src="Image/mapa_logistico_atrator_lambda2.png">
 
